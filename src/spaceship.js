@@ -10,12 +10,6 @@ class Spaceship {
         this.phasersCharge = "uncharged"
     }
 
-    docked() {
-        if (this.docked === true) {
-            return true
-        }
-    }
-
     notifyCrew() {
         for (let i = 0; i < this.crew.length; i++;) {
             this.crew[i].currentShip = this
