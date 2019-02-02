@@ -9,8 +9,6 @@ class Spaceship {
         this.phasersCharge = "uncharged"
         if (!this.crew) {
             this.docked = false
-        } else {
-            this.docked = true
         }
     }
 
