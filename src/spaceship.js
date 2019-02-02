@@ -1,6 +1,6 @@
 class Spaceship {
-    constructor(shipName, crew, phasers, shields) {
-        this.name = shipName
+    constructor(name, crew, phasers, shields) {
+        this.name = name
         this.crew = crew
         this.phasers = phasers
         this.shields = shields
