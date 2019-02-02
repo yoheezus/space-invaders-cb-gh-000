@@ -7,7 +7,7 @@ class Spaceship {
         this.cloaked = false
         this.warpDrive = "disengaged"
         this.phasersCharge = "uncharged"
-        if (!crew) {
+        if (!this.crew) {
             this.docked = false
         } else {
             this.docked = true
