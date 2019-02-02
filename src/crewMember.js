@@ -5,8 +5,8 @@ class CrewMember {
     }
 
     engageWarpDrive() {
-        if (this.position === "Pilot" && this.currentShip !== "Looking for a Rig") {
-            this.currentShip.warpDrive = "engaged"
+        return this.position === "Pilot" && this.currentShip !== "Looking for a Rig" ?
+        (this.currentShip.warpDrive = "engaged") : "had no effect"
         }
     }
 }
