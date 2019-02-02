@@ -12,7 +12,7 @@ class Spaceship {
     }
 
     notifyCrew() {
-        for (let i = 0; i < this.crew.length; i++; {
+        for (let i = 0; i < this.crew.length; i++) {
             this.crew[i].currentShip = this
         }
     }
