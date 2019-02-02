@@ -8,6 +8,7 @@ class Spaceship {
         this.warpDrive = "disengaged"
         this.phasersCharge = "uncharged"
         crew.length ? (this.docked = false) : (this.docked = true)
+        this.notifyCrew
     }
 
     notifyCrew() {
